@@ -1,0 +1,147 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container umum */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Teks link */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background: #2980b9;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #1f5e85;
+}
+
+/* Pesan error */
+.error {
+    color: #c0392b;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+/* Tabel Daftar Buku */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #ecf0f1;
+    font-weight: 600;
+}
+
+table tr:hover {
+    background: #f2f2f2;
+}
+
+/* Tombol aksi */
+.action-link {
+    color: #2980b9;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+}
+
+/* Header Logout Link */
+.header {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.header a {
+    color: #c0392b;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* Tambahan styling untuk kesan rapi */
+p {
+    margin: 10px 0;
+}
+
+.main-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    background: #27ae60;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main-link:hover {
+    background: #1e8449;
+}
